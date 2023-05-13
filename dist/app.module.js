@@ -21,10 +21,10 @@ let AppModule = class AppModule {
 AppModule = __decorate([
     (0, common_1.Module)({
         imports: [app_StudentModule_1.StudentModule, registermodule_module_1.StudentRegModule, course_module_1.CourseModule, app_LibrarianModule_1.BookModule, app_NotesModule_1.NoteModule, typeorm_1.TypeOrmModule.forRoot({ type: 'postgres',
-                host: 'containers-us-west-59.railway.app',
-                port: 5936,
+                host: 'containers-us-west-197.railway.app',
+                port: 6591,
                 username: 'postgres',
-                password: 'd7CTSaTV85qvyjR3zH6Q',
+                password: 'iEYhht7fsHDgXGHTgUAJ',
                 database: 'railway',
                 autoLoadEntities: true,
                 synchronize: true,
