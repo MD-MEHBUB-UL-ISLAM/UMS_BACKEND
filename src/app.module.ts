@@ -18,7 +18,9 @@ import { join } from 'path';
     database: 'railway',
     autoLoadEntities: true,
     synchronize: true,
+
   }
+  
 
   ), ServeStaticModule.forRoot({
     rootPath: join(__dirname, '..', '../public'), // added ../ to get one folder back
