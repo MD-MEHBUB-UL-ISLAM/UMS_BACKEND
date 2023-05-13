@@ -11,11 +11,11 @@ import { join } from 'path';
 @Module({
   imports: [StudentModule,StudentRegModule, CourseModule,BookModule,NoteModule, TypeOrmModule.forRoot(
    { type: 'postgres',
-    host: 'localhost',
-    port: 5432,
+    host: 'containers-us-west-59.railway.app',
+    port: 5936,
     username: 'postgres',
-    password: 'root',
-    database: 'ums',
+    password: 'd7CTSaTV85qvyjR3zH6Q',
+    database: 'railway',
     autoLoadEntities: true,
     synchronize: true,
   }
