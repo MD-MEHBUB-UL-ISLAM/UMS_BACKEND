@@ -39,6 +39,7 @@ export class StudentController {
   constructor(private studentService: StudentService,
    
     ) {}
+    
 
   @Get('/index')
   getAdmin(): any {
