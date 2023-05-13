@@ -11,16 +11,16 @@ import { join } from 'path';
 @Module({
   imports: [StudentModule,StudentRegModule, CourseModule,BookModule,NoteModule, TypeOrmModule.forRoot(
    { type: 'postgres',
-    host: 'containers-us-west-32.railway.app',
-    port: 6206,
+    host: 'containers-us-west-122.railway.app',
+    port: 7015,
     username: 'postgres',
-    password: 'krns1gz22ObPToEi1axf',
+    password: 'j7izz9SnVq2eyysaH9Ba',
     database: 'railway',
     autoLoadEntities: true,
     synchronize: true,
 
   }
-  
+
 
   ), ServeStaticModule.forRoot({
     rootPath: join(__dirname, '..', '../public'), // added ../ to get one folder back
